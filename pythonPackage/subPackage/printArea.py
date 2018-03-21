@@ -1,0 +1,2 @@
+def printArea():
+    print("AREA")

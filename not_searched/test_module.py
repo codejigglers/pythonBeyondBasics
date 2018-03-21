@@ -1,0 +1,2 @@
+def testMeth():
+    print("VADAN")

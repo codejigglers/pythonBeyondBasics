@@ -1,0 +1,24 @@
+A __init__ (dunder init) file is basically resposible for converting a not=rmal director to a package.
+
+When we create a __init__ file and type below command what we get is a path to __init__ file
+
+import pythonPackage
+pythonPackage.__file__
+
+Now understand what basically a package or directory or module is:
+
+Module is basically a python file
+Directory is basically a directory which can have multiple modules/python files. When we import a directory then we have to explicitly
+call for its modules. For example we may have to import it by from direc import module statement or by using direc.module.
+
+A package basically consists of __init__ file. So as soon as we call a package it refers to its __init__ file and executes whatever is mentioned inside
+of it. Even in packages we can call for modules from above directory methods.
+
+So basically packages serves for better structure. For example if we have a module inside a package, and we want to call it. Then we have to ba
+basically write package.module.method to reach to a particular method.
+
+Instead we can use import package,module.method inside the __init__ file and it will automatically import the method as soon as we import the
+package.
+
+
+We can also create subpackage inside a package as in our case in the subPackage 
